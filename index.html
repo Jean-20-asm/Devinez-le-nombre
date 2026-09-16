@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devinez le nombre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+        <h1>🎯 Devinez le nombre</h1>
+
+        <p class="description">
+            Je pense à un nombre entre <strong>1 et 100</strong>.
+            Pouvez-vous le deviner?
+        </p>
+
+        <div class="game-box">
+            <input
+                type="number"
+                id="guessInput"
+                min="1"
+                max="100"
+                placeholder="Enter a number"
+            >
+
+            <button id="guessButton">Devinez</button>
+
+            <p id="message">Bonne chance! 🍀</p>
+
+            <p>
+                Tentatives:
+                <span id="attempts">0</span>
+            </p>
+
+            <button id="restartButton" class="restart">
+                🔄 Rejouer
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
