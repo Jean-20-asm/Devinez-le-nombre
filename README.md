@@ -5,10 +5,10 @@ L'ordinateur choisit un nombre aléatoire entre '1 et 100'.
 
 Votre objectif est de trouver le nombre secret:
 
-_⬆️ Le jeu indique si votre nombre est trop petit.
-_⬇️ Le jeu indique si votre nombre est trop grand.
-_🎉 Vous gagnez lorsque vous trouvez le bon nombre.
-_🔄 Vous pouvez recommencer la partie à tout moment.
+ _⬆️ Le jeu indique si votre nombre est trop petit.
+ _⬇️ Le jeu indique si votre nombre est trop grand.
+ _🎉 Vous gagnez lorsque vous trouvez le bon nombre.
+ _🔄 Vous pouvez recommencer la partie à tout moment.
 
 🛠️ Technologies utilisées:
 * HTML5
